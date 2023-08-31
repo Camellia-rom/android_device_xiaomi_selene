@@ -117,6 +117,10 @@ PRODUCT_PACKAGES += \
     libmtk_bsg \
     libmtk_bsg.recovery
 
+# BackPressure Propagation
+PRODUCT_ODM_PROPERTIES += \
+    debug.sf.disable_client_composition_cache=0    
+
 # MediaTek Preloader Utils
 PRODUCT_PACKAGES += \
     mtk_plpath_utils \
