@@ -191,6 +191,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FMRadio
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true    
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service \
